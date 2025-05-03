@@ -1,0 +1,60 @@
+/* 🌟 Home Page Styling */
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f6d365, #fda085); /* Warm Orange Gradient */
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.home-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-button.login {
+  background-color: white;
+  color: #fda085;
+}
+
+.home-button.login:hover {
+  background-color: #fdf4c8;
+}
+
+.home-button.register {
+  background-color: #fda085;
+  color: white;
+}
+
+.home-button.register:hover {
+  background-color: #e67e22;
+}
